@@ -118,6 +118,19 @@
 [data-title] {
     position: relative;
 }
+.hero-div {
+    position: relative;
+}
+
+.hero-pozadina {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(100, 196, 237, 0.6); /* Blue background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+    height: 100%;
+}
 .back-to-top {
     position: fixed;
     bottom: 25px;
