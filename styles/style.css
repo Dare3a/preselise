@@ -65,7 +65,7 @@
     color: white;
     padding: 2px 8px;
     background-color: #2db92d;
-    border-radius: 50px;
+    border-radius: 10px;
     box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.50);
     text-decoration: none;
 }
@@ -74,7 +74,6 @@
     color: white;
     padding: 2px 8px;
     background-color: limegreen;
-    border-radius: 50px;
     box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.50);
     text-decoration: none;
 }
