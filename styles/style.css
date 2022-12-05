@@ -64,7 +64,7 @@
     font-size: 16px;
     color: white;
     padding: 2px 8px;
-    background-color: limegreen;
+    background-color: #2db92d;
     border-radius: 50px;
     box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.50);
     text-decoration: none;
@@ -73,7 +73,7 @@
 .oblak:hover {
     color: white;
     padding: 2px 8px;
-    background-color: #2db92d;
+    background-color: limegreen;
     border-radius: 50px;
     box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.50);
     text-decoration: none;
@@ -85,13 +85,14 @@
     background-color: white !important;
     color: #457b9d !important;
 }
+
 .greyscale img {
+    filter: grayscale(25%);
+}
+.greyscale:hover img {
     filter: none;
 }
 
-.greyscale:hover img {
-    filter: brightness(0) saturate(100%) invert(94%) sepia(10%) saturate(940%) hue-rotate(140deg) brightness(90%) contrast(91%);
-}
 [data-title]:hover:after {
     opacity: 1;
     transition: all 0.1s ease 0.3s;
