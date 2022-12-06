@@ -30,6 +30,9 @@
 @media (min-width: 1400px) {
 
 }
+.font-22 {
+    font-size: 22px;
+}
 .navbar {
     background-color: #457b9d;
     /*color: white !important;*/
@@ -168,4 +171,12 @@
     background: #c9bcb6;
     border-radius: 8px;
     border: 1px solid white;
+}
+/*.about-card {*/
+/*    background-color: #d3c9c4;*/
+/*}*/
+.about-card .card {
+    border: 1px solid #f1f1f1;
+    background-color: cadetblue !important;
+    color: #f1f1f1;
 }
