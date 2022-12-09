@@ -207,10 +207,11 @@
 .usluge .btn {
     color: white;
     background-color: #457b9d;
+    box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.50);
 }
 .usluge .btn:hover {
     color: #457b9d;
-    background-color: white;
+    background-color: #f1faee;
     border: 1px solid #457b9d;
 }
 .img-box {
@@ -233,3 +234,9 @@
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
+.proces .card {
+    background-color: #d3c9c4;
+    border-bottom: 2px solid #457b9d !important;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 4px 4px, rgba(0, 0, 0, 0.22) 0 4px 4px;
+}
+
