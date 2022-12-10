@@ -247,3 +247,9 @@
 b, strong {
     color: #4d4d4d !important;
 }
+.logo-bckg {
+    background-image: url("../images/logo-preseli-se-background-f1.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    /*background-size: cover;*/
+}
