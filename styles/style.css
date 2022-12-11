@@ -147,6 +147,7 @@
 
 .back-to-top {
     position: fixed;
+    z-index: 10;
     bottom: 25px;
     right: 25px;
     display: none;
@@ -299,6 +300,7 @@ b, strong {
 
 .testimonial > .carousel-control-next,
 .testimonial > .carousel-control-prev {
+    z-index: 1;
     filter: brightness(0) saturate(100%) invert(27%) sepia(99%) saturate(4068%) hue-rotate(342deg) brightness(103%) contrast(80%);
 }
 .carousel-indicators button {
@@ -307,4 +309,18 @@ b, strong {
     height: 20px !important;
     border-radius: 50% !important;
     filter: brightness(0) saturate(100%) invert(27%) sepia(99%) saturate(4068%) hue-rotate(342deg) brightness(103%) contrast(80%);
+}
+.carousel-indicators {
+    padding-top: 10px !important;
+}
+.testim  img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border-radius: 50%;
+}
+.gold {
+    color: #d4af37;
+    font-size: 18px;
 }
