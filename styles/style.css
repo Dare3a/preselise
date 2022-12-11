@@ -296,3 +296,15 @@ b, strong {
         transform:  scale(1);
     }
 }
+
+.testimonial > .carousel-control-next,
+.testimonial > .carousel-control-prev {
+    filter: brightness(0) saturate(100%) invert(27%) sepia(99%) saturate(4068%) hue-rotate(342deg) brightness(103%) contrast(80%);
+}
+.carousel-indicators button {
+    margin-right: 10px !important;
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 50% !important;
+    filter: brightness(0) saturate(100%) invert(27%) sepia(99%) saturate(4068%) hue-rotate(342deg) brightness(103%) contrast(80%);
+}
