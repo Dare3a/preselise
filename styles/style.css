@@ -675,3 +675,9 @@ footer .btn:hover, footer .btn:focus, footer .btn.active {
     transition: all 250ms ease-in-out 0s;**/
 
 }
+.point {
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
