@@ -102,13 +102,13 @@
     color: #457b9d !important;
 }
 
-.greyscale img {
-    filter: grayscale(25%);
-}
+/*.greyscale img {*/
+/*    filter: grayscale(25%);*/
+/*}*/
 
-.greyscale:hover img {
-    filter: none;
-}
+/*.greyscale:hover img {*/
+/*    filter: none;*/
+/*}*/
 
 [data-title]:hover:after {
     opacity: 1;
@@ -684,4 +684,18 @@ footer .btn:hover, footer .btn:focus, footer .btn.active {
     width: 10px;
     height: 10px;
     border-radius: 50%;
+}
+.fa.luminescence {
+    color: white;
+    font-size: 1.2em;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    cursor: pointer;
+    /*margin-bottom: 20px;*/
+}
+
+.fa.luminescence:hover {
+    color: #a8dadc;
+    transform: scale(1.3, 1.3);
+    -webkit-transform: scale(1.3, 1.3);
 }
