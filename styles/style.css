@@ -7,11 +7,39 @@
 
 /*// Small devices (landscape phones, 576px and up)*/
 @media (max-width: 575px) {
-
+    .nav-item {
+        font-size: 18px;
+    }
+    .dropdown-item {
+        font-size: 16px;
+    }
+    .hero-cap {
+        font-size: 20px;
+    }
+    .hero-p {
+        font-size: 16px;
+    }
+    .h2-cap {
+        font-size: 21px;
+    }
 }
 
 @media (min-width: 576px) {
-
+    .nav-item {
+        font-size: 18px;
+    }
+    .dropdown-item {
+        font-size: 16px;
+    }
+    .hero-cap {
+        font-size: 22px;
+    }
+    .hero-p {
+        font-size: 18px;
+    }
+    .h2-cap {
+        font-size: 22px;
+    }
 }
 
 
@@ -22,17 +50,38 @@
 
 /*// Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
-
+    .nav-item {
+        font-size: 20px;
+    }
+    .dropdown-item {
+        font-size: 18px;
+    }
+    .hero-cap {
+        font-size: 24px;
+    }
+    .hero-p {
+        font-size: 20px;
+    }
 }
 
 /*// X-Large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
-
+    .hero-cap {
+        font-size: 26px;
+    }
+    .hero-p {
+        font-size: 22px;
+    }
+    .h2-cap {
+        font-size: 23px;
+    }
 }
 
 /*// XX-Large devices (larger desktops, 1400px and up)*/
 @media (min-width: 1400px) {
-
+    .hero-cap {
+        font-size: 28px;
+    }
 }
 
 .font-22 {
@@ -46,7 +95,6 @@
 .navbar {
     background-color: #457b9d;
     /*color: white !important;*/
-    font-size: 22px;
     padding-top: 2px !important;
     padding-bottom: 2px !important;
     -webkit-box-shadow: 0 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
