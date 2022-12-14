@@ -779,3 +779,17 @@ footer .btn:hover, footer .btn:focus, footer .btn.active {
     box-shadow: 6px 6px 6px 0 rgba(0, 0, 0, 0.3);
 }
 
+.pozadina {
+    background-image: url(../images/kontakt-pozadina.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.transbox {
+    background: rgba(230, 230, 230, 0.3);
+}
+.txt-shadow {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
