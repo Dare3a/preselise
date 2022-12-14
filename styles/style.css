@@ -793,3 +793,18 @@ footer .btn:hover, footer .btn:focus, footer .btn.active {
     color: white;
     text-shadow: 2px 2px 4px #000000;
 }
+.kontakt-podatci {
+    color: white;
+    background-color: rgba(29, 53, 87, 0.7);
+    border-radius: 10px;
+}
+.kontakt-podatci a, .text-link a {
+    color: #a8dadc;
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+
+.kontakt-podatci a:hover, .text-link a:hover {
+    color: #a8dadc;
+    text-decoration: underline;
+}
