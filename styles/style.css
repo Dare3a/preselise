@@ -786,9 +786,9 @@ footer .btn:hover, footer .btn:focus, footer .btn.active {
     background-size: cover;
 }
 
-.transbox {
-    background: rgba(230, 230, 230, 0.3);
-}
+/*.transbox {*/
+/*    background: rgba(230, 230, 230, 0.1);*/
+/*}*/
 .txt-shadow {
     color: white;
     text-shadow: 2px 2px 4px #000000;
