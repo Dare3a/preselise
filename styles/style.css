@@ -824,3 +824,12 @@ footer .btn:hover, footer .btn:focus, footer .btn.active {
 .text-link-white:hover {
     color: #ccc;
 }
+.btn-red {
+    background-color: #eb606c !important;
+    color: white !important;
+    font-size: 18px !important;
+}
+.btn-red:hover {
+    background-color: #e63946 !important;
+    color: white !important;
+}
