@@ -854,3 +854,6 @@ footer .btn:hover, footer .btn:focus, footer .btn.active {
     color: #457b9d;
     text-decoration: underline;
 }
+.aktivno-lista > a {
+    background-color: white;
+}
