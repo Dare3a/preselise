@@ -9,17 +9,22 @@
 
 <url>
   <loc>https://preselise.rs/</loc>
-  <lastmod>2023-01-05T23:10:26+00:00</lastmod>
+  <lastmod>2023-01-15T14:10:47+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://preselise.rs/kombi-selidbe.html</loc>
-  <lastmod>2023-01-05T23:10:26+00:00</lastmod>
+  <lastmod>2023-01-15T14:10:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://preselise.rs/transport-namestaja.html</loc>
+  <lastmod>2023-01-15T14:10:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://preselise.rs/kontakt.html</loc>
-  <lastmod>2023-01-05T23:10:26+00:00</lastmod>
+  <lastmod>2023-01-15T14:10:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
