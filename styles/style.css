@@ -858,3 +858,12 @@ footer .btn:hover, footer .btn:focus, footer .btn.active {
 .aktivno-lista > a {
     background-color: white;
 }
+.box-price {
+    /*width: fit-content;*/
+    line-height: 1.2em;
+    /*color: white;*/
+    /*background-image: linear-gradient(to right, #00afb9, #00afb9, #27ace2, #909eee, #dc89d0);*/
+    background-color: #ded7d3;
+    padding: 0 6px;
+    border-radius: 6px;
+}
