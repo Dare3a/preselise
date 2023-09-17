@@ -18,27 +18,23 @@ if (dropDownMenu) {
         });
     });
 }
-/*back to top*/
-$("#back-to-top").hide();
-$(document).ready(function () {
-    $(window).scroll(function () {
-        // console.log($(this).scrollTop());
-        if ($(this).scrollTop() > 150) {
-            $("#back-to-top").fadeIn();
+// SCROLL TO TOP
+document.addEventListener("DOMContentLoaded", function (event) {
+
+    const button = document.querySelector('#back-to-top');
+
+    button.addEventListener('click', function () {
+        window.scrollTo({top: 0, left: 0, behavior: "smooth"});
+    });
+
+    window.addEventListener('scroll', function () {
+        if (window.scrollY < 200) {
+            button.style.opacity = "0";
         } else {
-            $("#back-to-top").fadeOut();
+            button.style.opacity = "1";
         }
     });
-    // scroll body to 0px on click
-    $("#back-to-top").click(function () {
-        $("body,html").animate(
-            {
-                scrollTop: 0,
-            },
-            400
-        );
-        return false;
-    });
+
 });
 // Toast za poslatu poruku u kontakt formi
 // namesteno je na click zbog testa na lokalu u produkciji promeniti na submit
