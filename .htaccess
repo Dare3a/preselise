@@ -55,7 +55,7 @@ ErrorDocument 404 /404.html
 
 RewriteEngine On
 RewriteCond %{SERVER_PORT} 80
-RewriteRule ^(.*)$ https://preselise.rs/$1 [R,L]
+RewriteRule ^(.*)$ https://preselise.rs/$1 [L,R=301]
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 RewriteCond %{HTTP_HOST} !^www\.
