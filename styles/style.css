@@ -172,6 +172,10 @@
     filter: brightness(0) saturate(100%) invert(88%) sepia(24%) saturate(312%) hue-rotate(131deg) brightness(91%) contrast(91%);
 }
 
+.filter-teget {
+    filter: brightness(0) saturate(100%) invert(41%) sepia(82%) saturate(266%) hue-rotate(159deg) brightness(92%) contrast(94%);
+}
+
 [data-title]:hover:after {
     opacity: 1;
     transition: all 0.1s ease 0.3s;
