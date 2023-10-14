@@ -163,8 +163,8 @@
 }
 
 .aktivno-lista > a {
-    background-color: white !important;
-    color: #457b9d !important;
+    /*background-color: white !important;*/
+    color: #a8dadc !important;
 }
 
 
@@ -891,10 +891,6 @@ footer .btn:hover, footer .btn:focus, footer .btn.active {
 .side-link a:hover {
     color: #457b9d;
     text-decoration: underline;
-}
-
-.aktivno-lista > a {
-    background-color: white;
 }
 
 .box-price {
