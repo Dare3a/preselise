@@ -902,3 +902,9 @@ footer .btn:hover, footer .btn:focus, footer .btn.active {
     padding: 0 6px;
     border-radius: 6px;
 }
+.about-1 {
+    background-color: #ded7d3;
+}
+.about-2 {
+    background-color: #a8dadc;
+}
