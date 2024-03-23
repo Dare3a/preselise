@@ -835,13 +835,13 @@ footer .btn:hover, footer .btn:focus, footer .btn.active {
 }
 
 .text-link {
-    color: #00afb9;
+    color: #006166;
     text-decoration: none;
 }
 
 .text-link:hover {
     text-decoration: none;
-    color: #007980;
+    color: #00afb9;
 }
 
 .text-link-white {
