@@ -261,9 +261,8 @@
 
 .about-card .card {
     border: none;
-    background-color: cadetblue !important;
+    background-color: #365D5E !important;
     color: #f1f1f1;
-    box-shadow: rgba(0, 0, 0, 0.25) 0 4px 4px, rgba(0, 0, 0, 0.22) 0 4px 4px;
 }
 
 .usluge .card {
@@ -319,10 +318,6 @@
     box-shadow: rgba(0, 0, 0, 0.25) 0 4px 4px, rgba(0, 0, 0, 0.22) 0 4px 4px;
 }
 
-.proces .card h2 {
-    color: #457b9d;
-}
-
 b, strong {
     color: #4d4d4d !important;
 }
@@ -335,7 +330,7 @@ b, strong {
 
 .ponuda-card .card {
     border: none;
-    background-color: cadetblue !important;
+    background-color: #365D5E !important;
     color: #f1f1f1;
     box-shadow: rgba(0, 0, 0, 0.25) 0 4px 4px, rgba(0, 0, 0, 0.22) 0 4px 4px;
 }
