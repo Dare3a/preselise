@@ -834,15 +834,15 @@ footer .btn:hover, footer .btn:focus, footer .btn.active {
     text-decoration: underline;
 }
 
-.text-link {
-    color: #006166;
-    text-decoration: none;
-}
+/*.text-link {*/
+/*    color: #00afb9;*/
+/*    text-decoration: none;*/
+/*}*/
 
-.text-link:hover {
-    text-decoration: none;
-    color: #00afb9;
-}
+/*.text-link:hover {*/
+/*    text-decoration: none;*/
+/*    color: #00afb9;*/
+/*}*/
 
 .text-link-white {
     color: #fff;
