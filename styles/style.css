@@ -20,7 +20,7 @@
     }
 
     .hero-cap {
-        font-size: 24px;
+        font-size: 28px;
     }
 
     .hero-p {
@@ -42,7 +42,7 @@
     }
 
     .hero-cap {
-        font-size: 26px;
+        font-size: 28px;
     }
 
     .hero-p {
@@ -71,7 +71,7 @@
     }
 
     .hero-cap {
-        font-size: 26px;
+        font-size: 30px;
     }
 
     .hero-p {
@@ -82,7 +82,7 @@
 /*// X-Large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
     .hero-cap {
-        font-size: 30px;
+        font-size: 34px;
     }
 
     .hero-p {
@@ -97,7 +97,7 @@
 /*// XX-Large devices (larger desktops, 1400px and up)*/
 @media (min-width: 1400px) {
     .hero-cap {
-        font-size: 32px;
+        font-size: 36px;
     }
 }
 
