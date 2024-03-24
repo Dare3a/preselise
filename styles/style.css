@@ -903,3 +903,15 @@ footer .btn:hover, footer .btn:focus, footer .btn.active {
 .about-2 {
     background-color: #a8dadc;
 }
+.faq {
+    background-color: #365D5E;
+    color: white;
+}
+.question b {
+    color: #F0FFFF !important;
+    font-size: 17px;
+}
+.answer {
+    font-style: italic;
+    font-size: 17px;
+}
