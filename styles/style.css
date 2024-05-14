@@ -63,7 +63,7 @@
 /*// Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
     .nav-item {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .dropdown-item {
