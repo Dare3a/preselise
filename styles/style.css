@@ -915,3 +915,16 @@ footer .btn:hover, footer .btn:focus, footer .btn.active {
     font-style: italic;
     font-size: 17px;
 }
+
+.box-price {
+    /*width: fit-content;*/
+    line-height: 1.2em;
+    color: white;
+    background-color: #365D5E;
+    /*padding: 0 6px;*/
+    border-radius: 6px;
+}
+
+.box-price a {
+    color: white;
+}
