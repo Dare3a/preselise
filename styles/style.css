@@ -928,3 +928,6 @@ footer .btn:hover, footer .btn:focus, footer .btn.active {
 .box-price a {
     color: white;
 }
+.blog-card {
+    background-color: #ded7d3;
+}
