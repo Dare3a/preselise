@@ -931,3 +931,7 @@ footer .btn:hover, footer .btn:focus, footer .btn.active {
 .blog-card {
     background-color: #ded7d3;
 }
+.footer-link {
+    text-decoration: none;
+    color: #a8dadc;
+}
